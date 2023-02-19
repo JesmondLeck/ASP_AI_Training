@@ -1,0 +1,379 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you?",
+        "Hi Chatbot",
+        "Hello",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Howdy chatbot",
+        "Are you the Question and Answer chatbot I am looking for?"
+      ],
+      "responses": [
+        "Hi there, is there any question you have that I can answer?",
+        "Hello, I am here to answer to answer any questions you possibly have. Do not hesistate to ask me any as it is my duty to help you/"
+      ]
+    },
+    {
+      "tag": "farewell",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "See you next time",
+        "I will be back later",
+        "Hope to see you again",
+        "Good night"
+      ],
+      "responses": [
+        "Thank you. Do not hesistate to come back to ask me anymore questions",
+        "Thank you. Please ask me more questions later if you have more to ask."
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "What is Chronic Kidney Disease?",
+        "Is Chronic Kidney Disease the same as CKD?",
+        "How does CKD affect the kidneys?"
+      ],
+      "responses": [
+        "Chronic Kidney Disease also known as CKD is a condition in which the kidneys are damaged and are not able to filter waste and excess fluids from the body as effectively as they should. It is a progressive disease, which means that it gets worse over time."
+      ]
+    },
+    {
+      "tag": "causes",
+      "patterns": [
+        "What are the causes of CKD?",
+        "Is diabetes one of the causes of CKD?",
+        "Is high blood pressure one of the causes of CKD?"
+      ],
+      "responses": [
+        "There are several causes of CKD, including diabetes, high blood pressure, and certain infections.",
+        "Possible causes include diabetes, high blood pressure, and certain infections.",
+        "The main causes of CKD are diabetes and high blood pressure."
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "Are there any symptoms of CKD?",
+        "What are the symptoms of CKD?",
+        "Are there any complications associated with CKD?",
+        "What is the worst symptom of CKD?",
+        "How does CKD affect the body?",
+        "Is fatigue one of the symptoms of CKD?",
+        "Is swelling one of the symptoms of CKD ?",
+        "Is changes in urine output one of the symptoms of CKD?",
+        "Is anemia one of the symptoms of CKD?",
+        "Is bone disease one of the symptoms of CKD?",
+        "Is high blood pressure one of the symptoms of CKD?",
+        "Is infections one of the symptoms of CKD?",
+        "Is nerve damage one of the symptoms of CKD?",
+        "Is poor nutrition one of the symptoms of CKD?",
+        "Can CKD cause kidney failure?"
+      ],
+      "responses": [
+        "Symptoms of CKD may include swelling in the ankles and feet, fatigue, changes in urine output, anemia (low red blood cell count), bone disease, high blood pressure, infections, nerve damage and poor nutrition. Worst cases include kidney failure."
+      ]
+    },
+    {
+      "tag": "diagnosis",
+      "patterns": [
+        "How is CKD diagnosed?",
+        "How does the app and hardware help diagnose CKD?"
+      ],
+      "responses": [
+        "CKD is diagnosed through blood, and urine tests, and imaging tests such as ultrasound or CT scan. To conduct the tests, one has to travel to a polyclinic or hospital which can be quite inconvenient. The app and hardware diagnose CKD by checking ammonia level based on user's breath. After checking, the user can see their CKD stage and advices on what to do next will be given by the chatbot. User can detect their CKD stages through the app."
+      ]
+    },
+    {
+      "tag": "treatment",
+      "patterns": [
+        "How is CKD treated?",
+        "How is CKD treated in children?",
+        "What is the treatment for advanced CKD?",
+        "Can CKD be managed with diet and exercise alone?",
+        "How is CKD treated in the early stages?",
+        "What are the possible treatments for advanced CKD?",
+        "Can CKD be treated?",
+        "Can CKD be treated with medications?",
+        "Can CKD be treated with a kidney transplant?",
+        "Can CKD be treated with dialysis?",
+        "Can CKD be treated with exercise?"
+      ],
+      "responses": [
+        "In the early stages of CKD, treatment may focus on managing the underlying cause of the disease and slowing the progression of the kidney damage. Treatment for CKD may involve medications, lifestyle changes (such as eating healthily and getting regular exercise), and in advanced stages, dialysis or a kidney transplant.",
+        "In the early stages of CKD, treatment may focus on managing the underlying cause of the disease and slowing the progression of the kidney damage. In some cases, making lifestyle changes such as eating healthily and getting regular exercise can help manage CKD and slow the progression of the disease. However, in more advanced stages of CKD, medications and other treatments such as dialysis or a kidney transplant may also be necessary."
+      ]
+    },
+    {
+      "tag": "prevention",
+      "patterns": [
+        "Can CKD be prevented?",
+        "Can CKD be prevented in people with high blood pressure?",
+        "Can CKD be prevented in people with diabetes?",
+        "Does having a healthy lifestyle prevent CKD?",
+        "How to prevent CKD?"
+      ],
+      "responses": [
+        "In some cases, CKD can be prevented or slowed by managing underlying conditions such as diabetes and high blood pressure, and by maintaining a healthy lifestyle.",
+        "Maintaining a healthy blood pressure and good blood sugar control through lifestyle changes such as eating healthily, getting regular exercise, and taking medications as prescribed can help prevent or slow the progression of CKD."
+      ]
+    },
+    {
+      "tag": "prevention_family_history",
+      "patterns": [
+        "Can CKD be prevented in people with a family history of the disease?",
+        "Are the chances of people developing CKD higher after they have a family history of CKD?"
+      ],
+      "responses": [
+        "In some cases, people with a family history of CKD may be at an increased risk for developing the disease themselves. However, there are steps that can be taken to reduce the risk, such as maintaining a healthy lifestyle, managing underlying health conditions, and getting regular check-ups to monitor kidney function."
+      ]
+    },
+    {
+      "tag": "cure",
+      "patterns": [
+        "Is there a cure for CKD?",
+        "What are the possible cure for CKD?",
+        "Is the cure for CKD already available?",
+        "How many people have already been cured of CKD?"
+      ],
+      "responses": [
+        "There is currently no cure for CKD, but it can be managed with medications, lifestyle changes, and treatments such as dialysis or a kidney transplant. The goal of treatment is to slow the progression of the disease and improve the patient's quality of life."
+      ]
+    },
+    {
+      "tag": "outlook",
+      "patterns": [
+        "What is the outlook for someone with CKD?",
+        "How does CKD affect someone with CKD's outlook?"
+      ],
+      "responses": [
+        "The outlook for someone with CKD depends on the severity of the disease, the underlying cause, and the patient's overall health. In some cases, CKD can be managed effectively and the patient can live a normal lifespan. In other cases, the disease may progress to kidney failure, which can be life-threatening if left untreated."
+      ]
+    },
+    {
+      "tag": "lifestyle",
+      "patterns": [
+        "Are there any lifestyle changes that can help manage CKD?",
+        "What are possible lifestyle changes that can help manage CKD?",
+        "What are the various lifestyle changes one can make to manage CKD?"
+      ],
+      "responses": [
+        "Eating food that is low in salt, sugar, and fat and more fruits, vegetables, and whole grains help manage CKD.",
+        "Maintaining a healthy weight help manage CKD.",
+        "Exercising regularly help manage CKD.",
+        "Quitting smoking help manage CKD.",
+        "Reducing stress help manage CKD.",
+        "Getting enough sleep help manage CKD."
+      ]
+    },
+    {
+      "tag": "reverse",
+      "patterns": [
+        "Can CKD be reversed?",
+        "Can CKD be reversed in the early stages?",
+        "Can someone revert their health back to when they have no CKD?",
+        "Is it possible to no longer have CKD after being diagnosed?"
+      ],
+      "responses": [
+        "In some cases, early stages of CKD can be reversed if the underlying cause is treated effectively. However, once the kidneys have been significantly damaged in the late stages, it is generally not possible to reverse the disease."
+      ]
+    },
+    {
+      "tag": "monitoring",
+      "patterns": [
+        "How is CKD monitored?",
+        "How is the monitoring of CKD performed?",
+        "How can the app and hardware monitor CKD?"
+      ],
+      "responses": [
+        "CKD is usually monitored through regular blood and urine tests to measure kidney function and assess the progression of the disease. Other tests may also be performed, such as imaging tests or biopsies, to help diagnose the underlying cause of the kidney damage and determine the best course of treatment. To conduct the tests, one has to travel to a polyclinic or hospital which can be quite inconvenient. The app and hardware diagnose CKD by checking ammonia level based on user's breath. After checking, the user can see their CKD stage and advices on what to do next will be given by the chatbot. User can also monitor their CKD stages through the app."
+      ]
+    },
+    {
+      "tag": "diabetes_CKD",
+      "patterns": [
+        "What is the relationship between CKD and diabetes?",
+        "Is there any relationship between CKD and diabetes?",
+        "Does having diabetes contribute to having CKD?",
+        "Is diabetes a contributing factor of developing CKD?"
+      ],
+      "responses": [
+        "Diabetes is a common cause of CKD. High blood sugar levels associated with diabetes can damage the blood vessels in the kidneys, leading to kidney damage and impaired function. Managing diabetes can help prevent or slow the progression of CKD."
+      ]
+    },
+    {
+      "tag": "donation",
+      "patterns": [
+        "Is it possible to donate a kidney while living with CKD?",
+        "While having CKD, can someone donate a kidney?"
+      ],
+      "responses": [
+        "It is generally not possible to donate a kidney if you have CKD. Donors must be in good health with normal kidney function, and CKD is generally considered to be a disqualifying condition."
+      ]
+    },
+    {
+      "tag": "inheritance",
+      "patterns": [
+        "Can CKD be inherited?",
+        "Is CKD a hereditary disease?",
+        "What are the genetic conditions that cause CKD?"
+      ],
+      "responses": [
+        "In some cases, CKD can be inherited, meaning that it is passed down from one generation to the next. There are several genetic conditions that can cause CKD, such as polycystic kidney disease and Alport syndrome. However, in many cases, CKD is not inherited and is caused by other factors such as diabetes, high blood pressure, and certain infections."
+      ]
+    },
+    {
+      "tag": "possibly_unsafe_treatments",
+      "patterns": [
+        "Can CKD be treated with natural remedies?",
+        "Can CKD be treated with herbal supplements?",
+        "Can CKD be treated with acupuncture?",
+        "Can CKD be treated with supplements?",
+        "Can CKD be treated with home remedies?",
+        "Is natural remedies one of the treatments of CKD?",
+        "Is herbal supplements one of the treatments of CKD?",
+        "Is acupuncture one of the treatments of CKD?",
+        "Is supplements remedies one of the treatments of CKD?",
+        "Is home remedies remedies one of the treatments of CKD?"
+      ],
+      "responses": [
+        "Some people with CKD may be interested in using natural remedies/herbal supplements/acupuncutre/supplements/home remedies as part of their treatment plan. However, it is important to consult with a healthcare provider before taking any natural remedies, as they may not be safe or effective for everyone. Some natural remedies that have been suggested for CKD include herbal supplements, acupuncture, and special diets, but there is limited evidence to support their use."
+      ]
+    },
+    {
+      "tag": "antibotics_treatment",
+      "patterns": [
+        "Can CKD be treated with antibiotics?",
+        "Can CKD be treated with medications for infections?"
+      ],
+      "responses": [
+        "Antibiotics may be used to treat infections that can occur as a result of CKD. In some cases, antibiotics may also be used to treat the underlying cause of the disease, such as a bacterial infection. However, it is important to use antibiotics only as directed by a healthcare provider, as overuse or improper use of antibiotics can contribute to the development of antibiotic-resistant bacteria."
+      ]
+    },
+    {
+      "tag": "high_blood_pressure_treatment",
+      "patterns": [
+        "Can CKD be treated with medications for high blood pressure?"
+      ],
+      "responses": [
+        "High blood pressure is a common cause of CKD. Medications that lower blood pressure, such as angiotensin converting enzyme inhibitors (ACE inhibitors) or angiotensin receptor blockers (ARBs), may be used to treat CKD and slow the progression of the disease. However, these medications may not be suitable for everyone and may cause side effects."
+      ]
+    },
+    {
+      "tag": "diabetes_treatment",
+      "patterns": ["Can CKD be treated with medications for diabetes?"],
+      "responses": [
+        "Diabetes is a common cause of CKD. Medications that lower blood sugar levels, such as insulin or oral diabetes medications, may be used to treat CKD and slow the progression of the disease. However, these medications may not be suitable for everyone and may cause side effects."
+      ]
+    },
+    {
+      "tag": "high_calcium_bone_diease_treatment",
+      "patterns": [
+        "Can CKD be treated with medications for bone disease?",
+        "Can CKD be treated with medications for high calcium levels?"
+      ],
+      "responses": [
+        "Medications such as bisphosphonates or calcimimetics may be used to treat bone disease in people with CKD. However, these medications may not be suitable for everyone and may cause side effects."
+      ]
+    },
+    {
+      "tag": "anemia_fatigue_treatment",
+      "patterns": [
+        "Can CKD be treated with medications for anemia?",
+        "Can CKD be treated with medications for fatigue?"
+      ],
+      "responses": [
+        "Medications such as erythropoietin or iron supplements may be used to treat anemia/fatigue in people with CKD. However, these medications may not be suitable for everyone and may cause side effects."
+      ]
+    },
+    {
+      "tag": "nerve_damage_treament",
+      "patterns": ["Can CKD be treated with medications for nerve damage?"],
+      "responses": [
+        "CKD can cause nerve damage, which can lead to symptoms such as numbness, tingling, or muscle weakness. Medications such as calcium channel blockers or alpha-lipoic acid may be used to treat nerve damage in people with CKD. However, these medications may not be suitable for everyone and may cause side effects."
+      ]
+    },
+    {
+      "tag": "poor_nutrition_treatment",
+      "patterns": ["Can CKD be treated with medications for poor nutrition?"],
+      "responses": [
+        "CKD can cause poor nutrition, which can lead to a range of complications such as anemia and muscle weakness. Medications such as vitamin and mineral supplements may be used to treat poor nutrition in people with CKD. However, these medications may not be suitable for everyone and may cause side effects."
+      ]
+    },
+    {
+      "tag": "swelling_urine_output_treatment",
+      "patterns": [
+        "Can CKD be treated with medications for swelling?",
+        "Can CKD be treated with medications for changes in urine output?"
+      ],
+      "responses": [
+        "Medications such as diuretics or ACE inhibitors may be used to treat swelling/urine output changes in people with CKD. However, these medications may not be suitable for everyone and may cause side effects."
+      ]
+    },
+    {
+      "tag": "skin_problems_treatment",
+      "patterns": ["Can CKD be treated with medications for skin problems?"],
+      "responses": [
+        "CKD can cause skin problems such as dryness, itching, or rashes. Medications such as emollients or antihistamines may be used to treat skin problems in people with CKD. However, these medications may not be suitable for everyone and may cause side effects."
+      ]
+    },
+    {
+      "tag": "high_cholesterol_level",
+      "patterns": ["Can CKD be treated with medications for high cholesterol?"],
+      "responses": [
+        "CKD can cause high cholesterol, which can increase the risk of heart disease. Medications such as statins or fibrates may be used to treat high cholesterol in people with CKD. However, these medications may not be suitable for everyone and may cause side effects."
+      ]
+    },
+    {
+      "tag": "experimental_treatments",
+      "patterns": [
+        "Can CKD be treated with stem cell therapy?",
+        "Can CKD be treated with gene therapy?"
+      ],
+      "responses": [
+        "Some researchers are investigating the use of gene/stem cell therapy as a potential treatment for CKD. Gene therapy involves introducing new genetic material into the body to repair or replace damaged genes. In theory, gene therapy could be used to repair or replace damaged kidney tissue in people with CKD. However, gene therapy is still in the early stages of research and it is not yet clear whether it is safe and effective for the treatment of CKD."
+      ]
+    },
+    {
+      "tag": "gender_common",
+      "patterns": [
+        "Is CKD more common in men or women?",
+        "For which gender is CKD more common?",
+        "Is CKD more common in men than women?",
+        "Is CKD more common in men than women?"
+      ],
+      "responses": [
+        "CKD affects both men and women. However, some studies have suggested that it may be more common in men, particularly in older men."
+      ]
+    },
+    {
+      "tag": "race_common",
+      "patterns": [
+        "Is CKD more common in certain racial or ethnic groups?",
+        "For which race or ethnic group is CKD more common?"
+      ],
+      "responses": [
+        "Some racial and ethnic groups may be at an increased risk for developing CKD. For example, African Americans, Native Americans, and Hispanics are more likely to develop CKD than other racial and ethnic groups. This may be due to a variety of factors, including genetics, access to healthcare, and lifestyle factors."
+      ]
+    },
+    {
+      "tag": "special_diet",
+      "patterns": [
+        "Can CKD be treated with a special diet?",
+        "Can special diet be used to treat CKD?",
+        "Is special diet something that can be used to treat CKD?"
+      ],
+      "responses": [
+        "Making dietary changes may be an important part of managing CKD. Diet for people with CKD may include food that are low in salt, sugar, and fat and many fruits, vegetables, and whole grains. A healthcare provider or a registered dietitian can provide guidance on the best dietary plan for an individual with CKD."
+      ]
+    }
+  ]
+}
